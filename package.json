@@ -28,7 +28,8 @@
     "ikappas.phpcs",
     "junstyle.php-cs-fixer",
     "kakumei.php-xdebug",
-    "rexshi.phpdoc-comment-vscode-plugin"
+    "rexshi.phpdoc-comment-vscode-plugin",
+    "emallin.phpunit"
   ],
   "devDependencies": {
     "vsce": "^2.3.0"
