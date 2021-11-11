@@ -1,0 +1,23 @@
+{
+  "name": "php-language-extension-pack",
+  "displayName": "PHP Language Extension Pack",
+  "description": "Pack of extensions to work with PHP",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "icon": "images/icon.png",
+  "extensionPack": [
+    "bmewburn.vscode-intelephense-client",
+    "breezelin.phpstan",
+    "ecodes.vscode-phpmd",
+    "felixfbecker.php-debug",
+    "ikappas.phpcs",
+    "junstyle.php-cs-fixer",
+    "kakumei.php-xdebug",
+    "rexshi.phpdoc-comment-vscode-plugin"
+  ]
+}
