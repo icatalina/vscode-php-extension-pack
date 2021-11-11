@@ -1,7 +1,13 @@
 {
-  "name": "php-language-extension-pack",
+  "name": "php-extension-pack",
   "displayName": "PHP Language Extension Pack",
   "description": "Pack of extensions to work with PHP",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icatalina/vscode-php-extension-pack.git"
+  },
+  "homepage": "https://github.com/icatalina/vscode-lorikeet/blob/main/README.md",
+  "publisher": "icatalina",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.62.0"
@@ -9,6 +15,10 @@
   "categories": [
     "Extension Packs"
   ],
+  "scripts": {
+    "vsce:publish": "vsce publish",
+    "vsce:package": "vsce package"
+  },
   "icon": "images/icon.png",
   "extensionPack": [
     "bmewburn.vscode-intelephense-client",
@@ -19,5 +29,8 @@
     "junstyle.php-cs-fixer",
     "kakumei.php-xdebug",
     "rexshi.phpdoc-comment-vscode-plugin"
-  ]
+  ],
+  "devDependencies": {
+    "vsce": "^2.3.0"
+  }
 }
