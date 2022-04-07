@@ -24,10 +24,9 @@
     "bmewburn.vscode-intelephense-client",
     "breezelin.phpstan",
     "ecodes.vscode-phpmd",
-    "felixfbecker.php-debug",
+    "xdebug.php-debug",
     "ikappas.phpcs",
     "junstyle.php-cs-fixer",
-    "kakumei.php-xdebug",
     "rexshi.phpdoc-comment-vscode-plugin",
     "emallin.phpunit"
   ],
